@@ -4,7 +4,6 @@ import axios from "axios";
 import FileService from "../src/services/fileService.js";
 
 const { expect } = pkg;
-
 describe("FileService", () => {
   let fileService;
   let axiosGetStub;
