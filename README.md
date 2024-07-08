@@ -36,17 +36,12 @@ Este proyecto es el backend de la aplicación Toolbox, construido con Node.js, E
 
 ## Ejecutar el Proyecto con Docker
 
-1. Construye la imagen de Docker:
+1. Corre el siguiente comando para construir y levantar los contenedores de Docker:
     ```bash
-    docker build -t toolbox-backend .
+    docker-compose up --build
     ```
 
-2. Ejecuta el contenedor:
-    ```bash
-    docker run -p 3000:3000 toolbox-backend
-    ```
-
-3. La API estará disponible en [http://localhost:3000](http://localhost:3000).
+2. La API estará disponible en [http://localhost:3000](http://localhost:3000).
 
 ## Ejecutar los Tests
 
