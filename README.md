@@ -18,7 +18,7 @@ Este proyecto es el backend de la aplicación Toolbox, construido con Node.js, E
 
 1. Clona el repositorio:
     ```bash
-    git clone <URL_DEL_REPOSITORIO>
+    git clone https://github.com/EdinsonRequena/toolbox-backend.git
     cd toolbox-backend
     ```
 
